@@ -1,0 +1,128 @@
+a{
+  color:black !important;
+}
+/* body{
+  background-color: rgb(180, 178, 175);
+} */
+.profile{
+margin: 0px auto;
+  max-width: 550px;
+
+}
+
+.loginCard{
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  margin:10px auto;
+}
+
+.signupcard{
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  margin:10px auto;
+  height: auto;
+}
+.profile_avartar_img{
+  height: 160px;
+  width: 160px;
+  border-radius: 80px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+ .profile_inside{
+  display: flex;
+  border-bottom:1px solid black;
+} 
+
+.profile_avartar{
+  flex: 0.2;
+}
+.profile_info{
+  flex: 0.8;
+}
+.profile_postinfo{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+}
+ @media(max-width: 990px)
+{
+  .app{
+    flex-direction: column;
+  }
+} 
+
+.profile_galary{
+ margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* .item{
+width: 30%;
+} */
+.home_card{
+  width: 500px;
+  margin:26px auto;
+}
+.createpost_file{
+  margin: 20px auto;
+  max-width: 500px; 
+  padding: 20px;
+}
+.createpost_button{
+  margin-left: 140px;
+}
+.Navbar_logoutbutton{
+background-color: red !important;
+}
+
+.card_deletepost{
+  float: right;
+}
+.card_deletecomment{
+  float: right;
+}
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+.navbar_heading{
+  height: 80px !important;
+  color: aliceblue;
+  width: 100%;
+}
+
+ nav .navbar_rightside{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+
+nav .brand-logo{
+  margin-right: 500px;
+}
+
+.card-content{
+  flex-wrap: wrap;
+}
+.login_text{
+  font-family: "Billabong"
+}
+.login_text_insta{
+  font-family:Serif;
+}
+.nav_search{
+  color: black;
+  margin-top: 5px;
+}
+/* .collection{
+  flex-direction: row;
+  border: solid;
+} */
